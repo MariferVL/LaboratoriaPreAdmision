@@ -1,0 +1,53 @@
+<!-- 1Hito 1 -->
+
+<!-- 1 sola pantalla o vista. -->     
+<!--  1 botón para responder y ver alternativa correcta. -->
+
+    <!-- Micro-Proyecto A
+<!-- 2 preguntas con sus respectivas alternativas de respuesta en forma de /radio buttons/ (🔘)
+<!-- Sólo dice alternativa correcta.
+<!-- Solamente el "esqueleto" estático
+<!-- botón “Responder y ver resultados”.
+    <!-- 
+<!-- mensaje de alerta (/alert/) en navegador con valor (texto) del /radio button/ cliqueado. 
+
+    <!-- Micro-Proyecto B
+
+<!-- detectar eventos en el navegador (los /clicks/ de la usuaria) y hacer algo cuando sucedan.
+
+<!-- Identificar elementos HTML en navegador y obtener sus valores y/o estados.
+
+    <!-- micro-proyecto C
+
+<!-- solamente se marque el /radio button/ seleccionado 
+<!-- mensaje /alert/ con los valores de los /radio button/ seleccionados se muestre al hacer /click/ en botón “Responder y ver resultados”.
+
+       <!-- <#hito-2>
+
+<!-- Agrega una pantalla simple de bienvenida
+<!-- caja de texto (/input text/) en la que escribe su nombre quien juega.
+<!-- botón de "jugar" o "comenzar"
+<!-- +3 preguntas con sus respectivas alternativas de respuesta.
+<!-- Antes de peguntas mensaje: "Hola [nombre usuario]"
+<!-- botón "responder" muestra alternativa correcta por c/pregunta +  muestra si respuesta fue correcta o incorrecta.
+<!-- botón para volver a jugar (vuelve a pantalla inicial)
+
+         <#sugerencia-de-micro-proyecto-a-1>
+
+<!-- Comprobar respuestas de tu usuaria: condicionales y control de flujo (IF, ELSE).
+
+       <#hito-3>
+
+<!-- Permítele a la usuaria elegir entre 2 tipos de preguntas después de escribir su nombre y antes de ir a responder. Por ejemplo, unas sobre comida y otras sobre cervezas.
+  *2 temáticas de trivia?
+
+<!-- Agrega puntaje a respuestas correctas e incorrectas
+<!-- muestra puntaje total al final.
+    
+     <#7.-hacker-edition>
+<!-- Agregar una cuenta regresiva con un tiempo límite para responder cada pregunta. javascript <https://es.javascript.info/settimeout-setinterval>.
+<!--Subir tu código a GitHub <https://developer.mozilla.org/es/docs/Learn/Common_questions/Using_Github_pages> (commit/push) y desplegar la interfaz usando GitHub pages <https://pages.github.com/>. -->
+
+
+JS Master
+
