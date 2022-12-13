@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trivia</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<body>
-    <!-- 1 sola pantalla o vista. -->
-    <!--  1 botón para responder y ver alternativa correcta. -->
+  <body>
     <label for="">Preguntas</label>
     <!-- 2 preguntas con sus respectivas alternativas de respuesta en forma de /radio buttons/ (🔘) -->
-    <ul>
-        <li>primer item</li>
-        <li>segundo item</li>
-    </ul>
 
     <div>
-        <h1>De qué color es el chocolate</h1>
-        <input type=radio>
-        <h2>Naranja</h2>
-        <input type=radio>
-        <h2>Café</h2>
-        <button>revisar</button>
+      <h1>1. ¿Cuál es la película que más Oscars ha ganado en la historia?</h1>
+      <input type="radio" name="option" value="opcionA1" id="opcionA1" />
+      <label for="opcionA1">Titanic</label>
+      <br/>
+      <input type="radio" name="casa" value="opcionB1" id="opcionB1" />
+      <label for="opcionB1">El señor de los anillos: el retorno del rey</label>
+      <br/>
+      <input type="radio" name="perro" value="opcionC1" id="opcionC1" />
+      <label for="opcionC1">Ben Hur</label>
+      <br/>
+      <input type="radio" name="option" value="opcionD1" id="opcionD1" />
+      <label for="opcionD1">Todas las anteriores</label> 
+      <br/>
+      <input type="radio" name="option" value="opcionE1" id="opcionE1" />
+      <label for="opcionE1">Titanic y El señor de los anillos: el retorno del rey</label
+      > <br/>
+      
     </div>
 
+    <h2>A. Titanic</h2>
+    <input type="radio" />
+    <h2>B. El señor</h2>
+    <button>Responder y ver resultados</button>
+
     <h1>De qué color es el cielo</h1>
-    <input type=radio>
+    <input type="radio" />
     <h2>Azul</h2>
-    <input type=radio>
+    <input type="radio" />
     <h2>Verde</h2>
-    <!-- input type="checkbox" name=? value=? checked> -->
     <!-- Sólo dice alternativa correcta. -->
-    <button>revisar</button>
+    <button>Responder y ver resultados</button>
 
     <!-- Micro-Proyecto A
 <!-- Solamente el "esqueleto" estático -->
@@ -44,6 +52,5 @@
 
     <script src="index.js"></script>
     <!-- Que pasa?? -->
-</body>
-
-</html> 
+  </body>
+</html>
