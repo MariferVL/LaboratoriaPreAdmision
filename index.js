@@ -1,19 +1,7 @@
-function iniciarJuego(){let botoncualeslapregunta=document.getElementById('boton-pelicula')
-botonMascotaJugador.addEventListener('click',seleccionarMascotaJugador)
-let botonFuego=document.getElementById('boton-fuego')
-botonFuego.addEventListener('click',ataqueFuego)
-let botonAgua=document.getElementById('boton-agua')
-botonAgua.addEventListener('click',ataqueAgua)
-let botonTierra=document.getElementById('boton-tierra')
-botonTierra.addEventListener('click',ataqueTierra)}
-
-if (color === "Café") {
-    puntaje =+ 1
+function respuestas() {
+    document.getElementById("respuesta1").innerHTML = "Todas las anteriores";
 }
-else{ puntaje = 0}
-//if (color == "azul")//
 
- 
-
-
-
+function mostrarValor(elemento) {
+    alert(elemento.value);
+}
