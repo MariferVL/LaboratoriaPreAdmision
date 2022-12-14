@@ -87,7 +87,8 @@ El proyecto cuenta con 3 secciones principales que son de libre accceso al públ
     <li><a><b>signup.html</b> contiene el código necesario para registrar a nuestros usuarios vía website.</a></li>
     <li><a><b>login.html</b> permite ingresar a los usuarios ya registrados en nuestra BD.</a></li>
     <li><a>Los usuarios registrados se agrupan en "Público" o "Team" en el  <b>/admin</b> por un resguardo de seguridad.
-      El equipo administrativo es el único con acceso para ralizar este tipo de modificaciones.</a></li>
+      El equipo administrativo es el único con acceso para ralizar este tipo de modifica
+      ciones.</a></li>
     <li><a>El grupo "Team" tiene un mínimo de restricciones para así facilitar la actividad del sitio web.</a></li>
     <li><a>El grupo "Público" tiene un acceso limitado a la sección Post-It, creación de usuario y visualización de contenido, para proteger el material desplegado en el sitio.</a></li>
     <li><a>Además, se están implementando otras subsecciones para facilitar el uso de esta plataforma..</a></li>
