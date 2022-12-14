@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="js quiz.css">
+    <title>JS Quiz</title>
+  </head>
+  <body>
+    <h1 id="main-h">Desafío: Cuestionario de fútbol</h1>
+    <h2 id="questions-h">Preguntas</h2>
+
+    <p class="questions" id="question1">
+      1- Quien es el único jugador de futbol argentino que tiene una serie en Netflix?</p>
+    <input type="radio" name="answer1" value="wrong">Diego Maradona
+    <input type="radio" name="answer1" value="correct">Carlos Tevez
+    <input type="radio" name="answer1" value="wrong">Lionel Messi
+    <hr>
+
+    <p class="questions" id="question2">
+      2- Quien es el máximo goleador histórico de la selección brasileña?</p>
+    <input type="radio" name="answer2" value="wrong">Romario
+    <input type="radio" name="answer2" value="wrong">Ronaldo
+    <input type="radio" name="answer2" value="correct">Pelé
+    <hr>
+
+    <p class="questions" id="question3">
+      3- De los siguientes jugadores. Quien NO jugó para ambos equipos, Real Madrid y Barcelona</p>
+    <input type="radio" name="answer3" value="wrong">Luis Enrique
+    <input type="radio" name="answer3" value="wrong">Figo
+    <input type="radio" name="answer3" value="correct">Ronaldinho
+    <hr>
+
+    <p class="questions" id="question4">
+      4- Que jugador de la siguiente lista jugó para Internazionale de Milano y para A.C. Milano</p>
+    <input type="radio" name="answer4" value="wrong">Cristiano Ronaldo
+    <input type="radio" name="answer4" value="correct">Zlatan Ibrahimovic
+    <input type="radio" name="answer4" value="wrong">Samuel Etoo
+    <hr>
+
+    <p class="questions" id="question5">
+      5- Cual es el quipo que ha ganado más Champions League en la historia?</p>
+    <input type="radio" name="answer5" value="correct">Real Madrid
+    <input type="radio" name="answer5" value="wrong">F.C. Barcelona
+    <input type="radio" name="answer5" value="wrong">A.C. Milano
+    <br>
+    <br>
+
+    <button class="submit" onclick="return getResults();" type="submit">
+      Comprueba tus respuestas</button>
+
+  <h2 id="results-h">Resultados</h2>
+  <p id="results"></p>
+
+  <script type="text/javascript" src="test.js">
+  </script>
+  </body>
+</html>
