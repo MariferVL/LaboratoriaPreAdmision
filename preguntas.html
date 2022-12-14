@@ -11,9 +11,8 @@
 <body>
 <!-- Hito 1 -->
   <!-- 1 sola pantalla o vista.
-<button><a href="preguntas.html">Inicar juego</a></button>
-  1 botón para responder
- y ver cuál es la alternativa correcta. 
+  2 preguntas con, al menos, 3 alternativas de respuesta cada una.
+  1 botón para responder y ver cuál es la alternativa correcta. 
   No te dice si acertaste o no, sólo te dice cuál alternativa era la correcta.
   Sugerencia de micro-proyecto A
   *Solamente el "esqueleto" estático*
@@ -23,19 +22,19 @@
   
   <div id="pregunta1">
     <h1>1. ¿Cuál es la película que más Oscars ha ganado en la historia?</h1>
-    <input type="radio" name="option" value="opcionA1" id="opcionA1" onclick="mostrarValor(this)"/>
+    <input type="radio" name="option" value="opcionA1" id="opcionA1" onClick="mostrarValor(this)"/>
     <label for="opcionA1">Titanic</label>
     <br />
-    <input type="radio" name="option" value="opcionB1" id="opcionB1" onclick="mostrarValor(this)" />
+    <input type="radio" name="option" value="opcionB1" id="opcionB1" onClick="mostrarValor(this)" />
     <label for="opcionB1">El señor de los anillos: el retorno del rey</label>
     <br />
-    <input type="radio" name="option" value="opcionC1" id="opcionC1" onclick="mostrarValor(this)"/>
+    <input type="radio" name="option" value="opcionC1" id="opcionC1" onClick="mostrarValor(this)"/>
     <label for="opcionC1">Ben Hur</label>
     <br />
-    <input type="radio" name="option" value="opcionD1" id="opcionD1" onclick="mostrarValor(this)" />
+    <input type="radio" name="option" value="opcionD1" id="opcionD1" onClick="mostrarValor(this)" />
     <label for="opcionD1">Todas las anteriores</label>
     <br />
-    <input type="radio" name="option" value="opcionE1" id="opcionE1" onclick="mostrarValor(this)" />
+    <input type="radio" name="option" value="opcionE1" id="opcionE1" onClick="mostrarValor(this)" />
     <label for="opcionE1">Titanic y El señor de los anillos: el retorno del rey</label> <br />
 
     <button onclick="respuestas()">Responder y ver resultados</button>
