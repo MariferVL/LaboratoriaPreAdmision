@@ -7,7 +7,7 @@
 <!-- solamente se marque el /radio button/ seleccionado 
 <!-- mensaje /alert/ con los valores de los /radio button/ seleccionados se muestre al hacer /click/ en botón “Responder y ver resultados”.
 
-
+instrucciones
          <#sugerencia-de-micro-proyecto-a-1>
 
 <!-- Comprobar respuestas de tu usuaria: condicionales y control de flujo (IF, ELSE).
