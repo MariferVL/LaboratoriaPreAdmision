@@ -1,16 +1,15 @@
 
-
-    <!-- Micro-Proyecto B
-
-    <!-- micro-proyecto C
-
-<!-- solamente se marque el /radio button/ seleccionado 
-<!-- mensaje /alert/ con los valores de los /radio button/ seleccionados se muestre al hacer /click/ en botón “Responder y ver resultados”.
-
-instrucciones
-         <#sugerencia-de-micro-proyecto-a-1>
-
-<!-- Comprobar respuestas de tu usuaria: condicionales y control de flujo (IF, ELSE).
+Hito 2
+Agrega una pantalla simple de bienvenida con los siguientes elementos y características:
+Una caja de texto (input text) en la que escribe su nombre quien juega.
+Un botón de "jugar" o "comenzar" para ir a las preguntas.
+Esta vez deberán haber al menos 3 preguntas con sus respectivas alternativas de respuesta.
+Antes de las peguntas debe decir "Hola [el nombre que se escribió en la pantalla de bienvenida]"
+El botón para responder muestra la alternativa correcta para cada pregunta y, además, muestra si cada una de las respuestas fue correcta o incorrecta.
+Un botón para volver a jugar que vuelve a la pantalla inicial en la que se pide el nombre.
+Sugerencia de micro-proyecto A
+Evaluando las respuestas de tu usuaria
+Para determinar si las respuestas seleccionadas son correctas o incorrectas, necesitas predefinir cuál alternativa es la correcta para cada pregunta y evaluar (comparar) si la respuesta de tu usuaria coincide o no.
 
        <#hito-3>
 
