@@ -1,21 +1,6 @@
-<!-- 1Hito 1 -->
 
-<!-- 1 sola pantalla o vista. -->     
-<!--  1 botón para responder y ver alternativa correcta. -->
-
-    <!-- Micro-Proyecto A
-<!-- 2 preguntas con sus respectivas alternativas de respuesta en forma de /radio buttons/ (🔘)
-<!-- Sólo dice alternativa correcta.
-<!-- Solamente el "esqueleto" estático
-<!-- botón “Responder y ver resultados”.
-    <!-- 
-<!-- mensaje de alerta (/alert/) en navegador con valor (texto) del /radio button/ cliqueado. 
 
     <!-- Micro-Proyecto B
-
-<!-- detectar eventos en el navegador (los /clicks/ de la usuaria) y hacer algo cuando sucedan.
-
-<!-- Identificar elementos HTML en navegador y obtener sus valores y/o estados.
 
     <!-- micro-proyecto C
 
