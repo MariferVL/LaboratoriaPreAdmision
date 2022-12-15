@@ -14,7 +14,7 @@ function obtenerResultados () {
   var respuestasCorrectas = 0;
 
   // Loop de preguntas 
-  for (var pregunta = 1; pregunta <= 5; pregunta++) {
+  for (var pregunta = 1; pregunta <= 8; pregunta++) {
     var numeroPregunta = document.getElementsByName("opcion" + pregunta);
 
     //Loop para respuestas
@@ -22,6 +22,7 @@ function obtenerResultados () {
       var numeroRespuesta = numeroPregunta[respuesta];
       if (numeroRespuesta.value == "correcto" && numeroRespuesta.checked) {
         respuestasCorrectas++;
+        
       }
     }
   }
