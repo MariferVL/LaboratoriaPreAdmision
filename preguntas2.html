@@ -30,7 +30,7 @@
 
       <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid " id="home">
-          <a class="navbar-brand d-flex " href="#home">tindog</a>
+          <a class="navbar-brand d-flex " href="index.html">triviatón</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -39,35 +39,32 @@
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#cta">Download</a>
+                <a class="nav-link" href="#">Descarga</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pricing">Pricing</a>
+                <a class="nav-link" href="#">Comunidad</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#footer">Contact</a>
+                <a class="nav-link" href="#footer">Contacto</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  Dropdown
+                  Trivias
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="preguntas2.html">Música</a></li>
+                  <li><a class="dropdown-item" href="preguntas.html">Cine</a></li>
                   <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn  btn-outline-light" type="submit">Search</button>
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn  btn-outline-light" type="submit">Buscar</button>
             </form>
           </div>
         </div>
@@ -248,14 +245,16 @@
 
 
     </div>
-    <button onclick="return obtenerResultados();" type="submit">Responder y ver resultados</button>
+    <button onclick="return obtenerResultados();" type="submit" class="btn btn-dark btn-lg download-btn">Responder y ver
+      resultados</button>
     <h2 id="resultadosFinal">Resultados</h2>
     <p id="resultadosFinal"></p>
 
 
     <!--En modo de enlace para regresar podemos hacer lo siguiente:-->
 
-    <button><a href="index.html">Retornar</a></button>
+    <button type="button" class="btn btn-outline-light btn-lg download-btn"
+      onclick="window.location.href='index.html';">Regresar</button>
   </section>
 
   <!-- Footer -->
@@ -265,7 +264,7 @@
     <a href="https://www.instagram.com/tindog__/" target="_blank"><i class="fab fa-instagram contact-icon"></i></a>
     <a href="mailto:info@tindog.com" target="_blank"><i class="fas fa-envelope contact-icon"></i></a>
 
-    <p>© Copyright 2022 TinDog</p>
+    <p>© Copyright 2022 Triviatón</p>
 
   </section>
 

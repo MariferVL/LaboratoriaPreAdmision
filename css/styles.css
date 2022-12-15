@@ -23,13 +23,15 @@ p {
 }
 
 
-/* Main Layout */
+/* Sección Principal*/
 
 #nav, #bienvenida, #preguntas {
   background-color: #ff4c68;
   color: white;
 
 }
+
+/* Sección Navbar */
 
 #nav h1 {
   font-weight: bolder;
@@ -70,26 +72,14 @@ p {
   margin: 5% 3% 5% 0;
 }
 
-.main_img {
-  width: 55%;
-  transform: rotate(15deg) scale(1.25);
-  position: relative;
-  top: 22%;
-  left: 11%;
+
+/* Sección Preguntas*/
+
+#preguntas div{
+  text-align: left;
+  padding: 3%  22%  3%;
 
 }
-
-/* Features Section */
-
-#features {
-  padding: 8% 13%;
-}
-
-.feature_box {
-  padding: 0 6%;
-
-}
-
 .icon {
   color: #ef8172;
   font-size: 4.4rem;
@@ -101,64 +91,6 @@ p {
   color: #ff4c68;
 }
 
-/* Testimonials Section */
-
-#testimonials {
-  background-color: #ef8172;
-  color: white;
-  /* padding-top: 8%; */
-  padding: 8% 11% 1%;
-
-}
-
-#testimonials p,
-h2 {
-  color: white;
-  font-weight: bolder;
-  margin-bottom: 3rem;
-}
-
-#testimonials img {
-  width: 22% !important;
-  border-radius: 100%;
-  margin: 0 auto 1%;
-}
-
-.carousel-indicators {
-  margin-top: 0;
-}
-
-.carousel-item {
-  padding: 0 22% 0;
-  font-size: 2..2rem;
-  line-height: 1.5;
-}
-
-/* Press Section */
-
-#press {
-  background-color: #ef8172;
-  padding: 8%;
-}
-
-#press img {
-  width: 22%;
-  padding: 3%;
-}
-
-.middle {
-  box-shadow: 0px 0px 30px -7px rgba(0, 0, 0, 0.29);
-}
-
-.plan-name {
-  letter-spacing: 2px
-}
-
-.price {
-  font-weight: 1000;
-  font-size: 3.5em;
-  color: #ef8172;
-}
 
 .btn-outline-primary {
   color: #ff4c68;
@@ -194,34 +126,8 @@ h2 {
   border-color: #ff4c68 !important
 }
 
-/* Prices Section */
 
-#pricing {
-  padding: 8%;
-}
-
-#pricing li {
-  text-align: left;
-  margin-left: 29%;
-}
-
-#pricing span {
-  font-size: 20px;
-}
-
-.check {
-  color: #ff4c68;
-}
-
-/* Download Section */
-
-#cta {
-  background-color: #ff4c68;
-  color: white;
-  padding: 8% 0 3%;
-}
-
-/* Footer Section */
+/* Sección Footer */
 #footer {
   padding: 8%;
   background-color: white;
@@ -242,11 +148,6 @@ h2 {
 @media (max-width: 992px) {
   .navbar {
       padding: 0 0 3rem;
-  }
-
-  .main_img {
-      position: relative;
-      width: 55%;
   }
 
 }
