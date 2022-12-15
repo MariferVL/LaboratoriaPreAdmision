@@ -7,18 +7,6 @@ function guardarNombre() {
   }
 }
 
-// function respuesta() {
-//  document.getElementById("respuesta1").innerHTML = "Todas las anteriores";
-//} 
-
-// function mostrarValor(elemento) {
-//  alert(elemento.value);
-//}
-//function darRespuesta() {
-//  document.getElementById("respuesta1").innerHTML = "Todas las anteriores";
-//}
-
-
 
 function obtenerResultados () {
 
@@ -42,8 +30,13 @@ function obtenerResultados () {
 }
 
 
+// function respuesta() {
+//  document.getElementById("respuesta1").innerHTML = "Todas las anteriores";
+//} 
 
-
-
-//  Link de donde sacamos el código:
-//  https://teamtreehouse.com/community/javascript-project-simple-quiz-with-radio-buttons
+// function mostrarValor(elemento) {
+//  alert(elemento.value);
+//}
+//function darRespuesta() {
+//  document.getElementById("respuesta1").innerHTML = "Todas las anteriores";
+//}
