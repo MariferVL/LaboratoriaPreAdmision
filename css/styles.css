@@ -25,13 +25,13 @@ p {
 
 /* Main Layout */
 
-#title {
+#nav, #bienvenida, #preguntas {
   background-color: #ff4c68;
   color: white;
 
 }
 
-#title h1 {
+#nav h1 {
   font-weight: bolder;
   size: 3.3rem;
   line-height: 1.5;
@@ -222,9 +222,9 @@ h2 {
 }
 
 /* Footer Section */
-
-footer {
+#footer {
   padding: 8%;
+  background-color: white;
 }
 
 #footer p {

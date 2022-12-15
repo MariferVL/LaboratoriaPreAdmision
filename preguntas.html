@@ -20,7 +20,7 @@
 </head>
 
 <body>
-  <section id="title">
+  <section id="nav">
 
     <div class="container-fluid main">
 
@@ -29,8 +29,9 @@
       <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container-fluid " id="home">
           <a class="navbar-brand d-flex " href="#home">tindog</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
@@ -47,17 +48,20 @@
               <li class="nav-item">
                 <a class="nav-link" href="#footer">Contact</a>
               </li>
-             <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li> 
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -66,6 +70,10 @@
           </div>
         </div>
       </nav>
+    </div>
+  </section>
+
+
   <!-- Hito 1:
   + 1 sola pantalla o vista.
   + 2 preguntas con, al menos, 3 alternativas de respuesta cada una.
@@ -83,223 +91,214 @@
       + muestra puntaje total al final. 
     -->
 
-  <label for="">Preguntas</label>
+  <section id="preguntas">
 
-  <div id="pregunta1">
-    <h1>1. ¿Cuál es la película que más Oscars ha ganado en la historia?</h1>
-    <input type="radio" name="opcion1" value="incorrecto" id="opcionA1" onClick="mostrarValor(this)" />
-    <label for="opcionA1">Titanic</label>
-    <br />
-    <input type="radio" name="opcion1" value="incorrecto" id="opcionB1" onClick="mostrarValor(this)" />
-    <label for="opcionB1">El señor de los anillos: el retorno del rey</label>
-    <br />
-    <input type="radio" name="opcion1" value="incorrecto" id="opcionC1" onClick="mostrarValor(this)" />
-    <label for="opcionC1">Ben Hur</label>
-    <br />
-    <input type="radio" name="opcion1" value="correcto" id="opcionD1" onClick="mostrarValor(this)" />
-    <label for="opcionD1">Todas las anteriores</label>
-    <br />
-    <input type="radio" name="opcion1" value="incorrecto" id="opcionE1" onClick="mostrarValor(this)" />
-    <label for="opcionE1">Titanic y El señor de los anillos: el retorno del rey</label>
-    <br />
-    <br />
+    <h1>Preguntas</h1>
 
-  </div>
+    <div id="pregunta1">
+      <h1>1. ¿Cuál es la película que más Oscars ha ganado en la historia?</h1>
+      <input type="radio" name="opcion1" value="incorrecto" id="opcionA1" onClick="mostrarValor(this)" />
+      <label for="opcionA1">Titanic</label>
+      <br />
+      <input type="radio" name="opcion1" value="incorrecto" id="opcionB1" onClick="mostrarValor(this)" />
+      <label for="opcionB1">El señor de los anillos: el retorno del rey</label>
+      <br />
+      <input type="radio" name="opcion1" value="incorrecto" id="opcionC1" onClick="mostrarValor(this)" />
+      <label for="opcionC1">Ben Hur</label>
+      <br />
+      <input type="radio" name="opcion1" value="correcto" id="opcionD1" onClick="mostrarValor(this)" />
+      <label for="opcionD1">Todas las anteriores</label>
+      <br />
+      <input type="radio" name="opcion1" value="incorrecto" id="opcionE1" onClick="mostrarValor(this)" />
+      <label for="opcionE1">Titanic y El señor de los anillos: el retorno del rey</label>
+      <br />
+      <br />
 
-
-  <div id="pregunta2">
-    <h1>2. ¿Cuántas estatuillas tiene la película más premiada?</h1>
-    <input type="radio" name="opcion2" value="incorrecto" id="opcionA2" />
-    <label for="opcionA2">14</label>
-    <br />
-    <input type="radio" name="opcion2" value="correcto" id="opcionB2" />
-    <label for="opcionB2">11</label>
-    <br />
-    <input type="radio" name="opcion2" value="incorrecto" id="opcionC2" />
-    <label for="opcionC2">12</label>
-    <br />
-    <input type="radio" name="opcion2" value="incorrecto" id="opcionD2" />
-    <label for="opcionD2">10</label>
-    <br />
-    <input type="radio" name="opcion2" value="incorrecto" id="opcionE2" />
-    <label for="opcionE2">9</label>
-    <br />
-    <br />
-
-  </div>
-
-  <div id="pregunta3">
-    <h1>3. ¿Cuántas veces Arnold Schwarzenegger ha interpretado a Terminator T800?</h1>
-    <input type="radio" name="opcion3" value="incorrecto" id="opcionA3" />
-    <label for="opcionA3">5</label>
-    <br />
-    <input type="radio" name="opcion3" value="correcto" id="opcionB3" />
-    <label for="opcionB3">6</label>
-    <br />
-    <input type="radio" name="opcion3" value="incorrecto" id="opcionC3" />
-    <label for="opcionC3">4</label>
-    <br />
-    <input type="radio" name="opcion3" value="incorrecto" id="opcionD3" />
-    <label for="opcionD3">3</label>
-    <br />
-    <input type="radio" name="opcion3" value="incorrecto" id="opcionE3" />
-    <label for="opcionE3">7</label>
-    <br />
-    <br />
-
-  </div>
-
-  <div id="pregunta4">
-    <h1>4. ¿En qué película de la Saga de Star Wars la princesa Leia empieza a usar la fuerza?</h1>
-    <input type="radio" name="opcion4" value="incorrecto" id="opcionA4" />
-    <label for="opcionA4">Episodio V</label>
-    <br />
-    <input type="radio" name="opcion4" value="incorrecto" id="opcionB4" />
-    <label for="opcionB4">Episodio VII</label>
-    <br />
-    <input type="radio" name="opcion4" value="correcto" id="opcionC4" />
-    <label for="opcionC4">Episodio VI</label>
-    <br />
-    <input type="radio" name="opcion4" value="incorrecto" id="opcionD4" />
-    <label for="opcionD4">Episodio IV</label>
-    <br />
-    <input type="radio" name="opcion4" value="incorrecto" id="opcionE4" />
-    <label for="opcionE4">Episodio III</label>
-    <br />
-    <br />
-
-  </div>
-
-  <div id="pregunta5">
-    <h1>5. ¿Qué película de Pedro Almodóvar ha ganado un Oscar?</h1>
-    <input type="radio" name="opcion5" value="correcto" id="opcionA5" />
-    <label for="opcionA5">Todo sobre mi madre</label>
-    <br />
-    <input type="radio" name="opcion5" value="incorrecto" id="opcionB5" />
-    <label for="opcionB5">Volver</label>
-    <br />
-    <input type="radio" name="opcion5" value="incorrecto" id="opcionC5" />
-    <label for="opcionC5">Tacones Lejanos</label>
-    <br />
-    <input type="radio" name="opcion5" value="incorrecto" id="opcionD5" />
-    <label for="opcionD5">Átame</label>
-    <br />
-    <input type="radio" name="opcion5" value="incorrecto" id="opcionE5" />
-    <label for="opcionE5">Dolor y gloria</label>
-    <br />
-    <br />
-
-  </div>
-
-  <div id="pregunta6">
-    <h1>6. ¿En cuántas películas aparecen Michelle Pfeiffer y Al Pacino como pareja?</h1>
-    <input type="radio" name="opcion6" value="incorrecto" id="opcionA6" />
-    <label for="opcionA6">1</label>
-    <br />
-    <input type="radio" name="opcion6" value="incorrecto" id="opcionB6" />
-    <label for="opcionB6">3</label>
-    <br />
-    <input type="radio" name="opcion6" value="correcto" id="opcionC6" />
-    <label for="opcionC6">2</label>
-    <br />
-    <input type="radio" name="opcion6" value="incorrecto" id="opcionD6" />
-    <label for="opcionD6">Ninguna</label>
-    <br />
-    <input type="radio" name="opcion6" value="incorrecto" id="opcionE6" />
-    <label for="opcionE6">4</label>
-    <br />
-    <br />
-
-  </div>
-
-  <div id="pregunta7">
-    <h1>7. ¿En qué película sacrifican un conejo por celos?</h1>
-    <input type="radio" name="opcion7" value="incorrecto" id="opcionA7" />
-    <label for="opcionA7">Retrato de una obsesión</label>
-    <br />
-    <input type="radio" name="opcion7" value="incorrecto" id="opcionB7" />
-    <label for="opcionB7">Una propuesta indecente</label>
-    <br />
-    <input type="radio" name="opcion7" value="incorrecto" id="opcionC7" />
-    <label for="opcionC7">Bajos Institos</label>
-    <br />
-    <input type="radio" name="opcion7" value="correcto" id="opcionD7" />
-    <label for="opcionD7">Atracción Fatal</label>
-    <br />
-    <input type="radio" name="opcion7" value="incorrecto" id="opcionE7" />
-    <label for="opcionE7">Átame</label>
-    <br />
-    <br />
-
-  </div>
-
-  <div id="pregunta8">
-    <h1>8. En la película Mujer bonita, el galán es Richard Gere. ¿Qué otro actor fue considerado para este papel?</h1>
-    <input type="radio" name="opcion8" value="incorrecto" id="opcionA8" />
-    <label for="opcionA8">Al Pacino</label>
-    <br />
-    <input type="radio" name="opcion8" value="incorrecto" id="opcionB8" />
-    <label for="opcionB8">Daniel Day Lewis</label>
-    <br />
-    <input type="radio" name="opcion8" value="incorrecto" id="opcionC8" />
-    <label for="opcionC8">Denis Quaid</label>
-    <br />
-    <input type="radio" name="opcion8" value="incorrecto" id="opcionD8" />
-    <label for="opcionD8">A y C</label>
-    <br />
-    <input type="radio" name="opcion8" value="correcto" id="opcionE8" />
-    <label for="opcionE8">A y B</label>
-    <br />
-    <br />
+    </div>
 
 
-  </div>
-  <button onclick="return obtenerResultados();" type="submit">Responder y ver resultados</button>
-  <h2 id="resultadosFinal">Resultados</h2>
-  <p id="resultadosFinal"></p>
+    <div id="pregunta2">
+      <h1>2. ¿Cuántas estatuillas tiene la película más premiada?</h1>
+      <input type="radio" name="opcion2" value="incorrecto" id="opcionA2" />
+      <label for="opcionA2">14</label>
+      <br />
+      <input type="radio" name="opcion2" value="correcto" id="opcionB2" />
+      <label for="opcionB2">11</label>
+      <br />
+      <input type="radio" name="opcion2" value="incorrecto" id="opcionC2" />
+      <label for="opcionC2">12</label>
+      <br />
+      <input type="radio" name="opcion2" value="incorrecto" id="opcionD2" />
+      <label for="opcionD2">10</label>
+      <br />
+      <input type="radio" name="opcion2" value="incorrecto" id="opcionE2" />
+      <label for="opcionE2">9</label>
+      <br />
+      <br />
+
+    </div>
+
+    <div id="pregunta3">
+      <h1>3. ¿Cuántas veces Arnold Schwarzenegger ha interpretado a Terminator T800?</h1>
+      <input type="radio" name="opcion3" value="incorrecto" id="opcionA3" />
+      <label for="opcionA3">5</label>
+      <br />
+      <input type="radio" name="opcion3" value="correcto" id="opcionB3" />
+      <label for="opcionB3">6</label>
+      <br />
+      <input type="radio" name="opcion3" value="incorrecto" id="opcionC3" />
+      <label for="opcionC3">4</label>
+      <br />
+      <input type="radio" name="opcion3" value="incorrecto" id="opcionD3" />
+      <label for="opcionD3">3</label>
+      <br />
+      <input type="radio" name="opcion3" value="incorrecto" id="opcionE3" />
+      <label for="opcionE3">7</label>
+      <br />
+      <br />
+
+    </div>
+
+    <div id="pregunta4">
+      <h1>4. ¿En qué película de la Saga de Star Wars la princesa Leia empieza a usar la fuerza?</h1>
+      <input type="radio" name="opcion4" value="incorrecto" id="opcionA4" />
+      <label for="opcionA4">Episodio V</label>
+      <br />
+      <input type="radio" name="opcion4" value="incorrecto" id="opcionB4" />
+      <label for="opcionB4">Episodio VII</label>
+      <br />
+      <input type="radio" name="opcion4" value="correcto" id="opcionC4" />
+      <label for="opcionC4">Episodio VI</label>
+      <br />
+      <input type="radio" name="opcion4" value="incorrecto" id="opcionD4" />
+      <label for="opcionD4">Episodio IV</label>
+      <br />
+      <input type="radio" name="opcion4" value="incorrecto" id="opcionE4" />
+      <label for="opcionE4">Episodio III</label>
+      <br />
+      <br />
+
+    </div>
+
+    <div id="pregunta5">
+      <h1>5. ¿Qué película de Pedro Almodóvar ha ganado un Oscar?</h1>
+      <input type="radio" name="opcion5" value="correcto" id="opcionA5" />
+      <label for="opcionA5">Todo sobre mi madre</label>
+      <br />
+      <input type="radio" name="opcion5" value="incorrecto" id="opcionB5" />
+      <label for="opcionB5">Volver</label>
+      <br />
+      <input type="radio" name="opcion5" value="incorrecto" id="opcionC5" />
+      <label for="opcionC5">Tacones Lejanos</label>
+      <br />
+      <input type="radio" name="opcion5" value="incorrecto" id="opcionD5" />
+      <label for="opcionD5">Átame</label>
+      <br />
+      <input type="radio" name="opcion5" value="incorrecto" id="opcionE5" />
+      <label for="opcionE5">Dolor y gloria</label>
+      <br />
+      <br />
+
+    </div>
+
+    <div id="pregunta6">
+      <h1>6. ¿En cuántas películas aparecen Michelle Pfeiffer y Al Pacino como pareja?</h1>
+      <input type="radio" name="opcion6" value="incorrecto" id="opcionA6" />
+      <label for="opcionA6">1</label>
+      <br />
+      <input type="radio" name="opcion6" value="incorrecto" id="opcionB6" />
+      <label for="opcionB6">3</label>
+      <br />
+      <input type="radio" name="opcion6" value="correcto" id="opcionC6" />
+      <label for="opcionC6">2</label>
+      <br />
+      <input type="radio" name="opcion6" value="incorrecto" id="opcionD6" />
+      <label for="opcionD6">Ninguna</label>
+      <br />
+      <input type="radio" name="opcion6" value="incorrecto" id="opcionE6" />
+      <label for="opcionE6">4</label>
+      <br />
+      <br />
+
+    </div>
+
+    <div id="pregunta7">
+      <h1>7. ¿En qué película sacrifican un conejo por celos?</h1>
+      <input type="radio" name="opcion7" value="incorrecto" id="opcionA7" />
+      <label for="opcionA7">Retrato de una obsesión</label>
+      <br />
+      <input type="radio" name="opcion7" value="incorrecto" id="opcionB7" />
+      <label for="opcionB7">Una propuesta indecente</label>
+      <br />
+      <input type="radio" name="opcion7" value="incorrecto" id="opcionC7" />
+      <label for="opcionC7">Bajos Institos</label>
+      <br />
+      <input type="radio" name="opcion7" value="correcto" id="opcionD7" />
+      <label for="opcionD7">Atracción Fatal</label>
+      <br />
+      <input type="radio" name="opcion7" value="incorrecto" id="opcionE7" />
+      <label for="opcionE7">Átame</label>
+      <br />
+      <br />
+
+    </div>
+
+    <div id="pregunta8">
+      <h1>8. En la película Mujer bonita, el galán es Richard Gere. ¿Qué otro actor fue considerado para este papel?
+      </h1>
+      <input type="radio" name="opcion8" value="incorrecto" id="opcionA8" />
+      <label for="opcionA8">Al Pacino</label>
+      <br />
+      <input type="radio" name="opcion8" value="incorrecto" id="opcionB8" />
+      <label for="opcionB8">Daniel Day Lewis</label>
+      <br />
+      <input type="radio" name="opcion8" value="incorrecto" id="opcionC8" />
+      <label for="opcionC8">Denis Quaid</label>
+      <br />
+      <input type="radio" name="opcion8" value="incorrecto" id="opcionD8" />
+      <label for="opcionD8">A y C</label>
+      <br />
+      <input type="radio" name="opcion8" value="correcto" id="opcionE8" />
+      <label for="opcionE8">A y B</label>
+      <br />
+      <br />
 
 
-  <!--En modo de enlace para regresar podemos hacer lo siguiente:-->
-
-  <button><a href="index.html">Retornar</a></button>
-
-  <!-- Call to Action -->
-
-  <section id="cta">
-
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i> Download</button>
-    <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fab fa-google-play"></i>
-      Download</button>
-  </section>
+    </div>
+    <button onclick="return obtenerResultados();" type="submit">Responder y ver resultados</button>
+    <h2 id="resultadosFinal">Resultados</h2>
+    <p id="resultadosFinal"></p>
 
 
-  <!-- Footer -->
+    <!--En modo de enlace para regresar podemos hacer lo siguiente:-->
 
-  <footer id="footer">
-    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter contact-icon"></i></a>
-    <a href="https://web.facebook.com/" target="_blank"><i class="fab fa-facebook contact-icon"></i></a>
-    <a href="https://www.instagram.com/tindog__/" target="_blank"><i class="fab fa-instagram contact-icon"></i></a>
-    <a href="mailto:info@tindog.com" target="_blank"><i class="fas fa-envelope contact-icon"></i></a>
+    <button><a href="index.html">Retornar</a></button>
 
-    <p>© Copyright 2022 TinDog</p>
+    <!-- Footer -->
+    <section id="footer">
+      <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter contact-icon"></i></a>
+      <a href="https://web.facebook.com/" target="_blank"><i class="fab fa-facebook contact-icon"></i></a>
+      <a href="https://www.instagram.com/tindog__/" target="_blank"><i class="fab fa-instagram contact-icon"></i></a>
+      <a href="mailto:info@tindog.com" target="_blank"><i class="fas fa-envelope contact-icon"></i></a>
 
-  </footer>
+      <p>© Copyright 2022 TinDog</p>
 
-  <!-- Boostrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    </section>
 
-  <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
-    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
-    crossorigin="anonymous"></script>
+    <!-- Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"></script>
 
-  <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
