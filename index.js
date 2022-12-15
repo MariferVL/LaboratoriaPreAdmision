@@ -42,26 +42,7 @@ function obtenerResultados () {
 }
 
 
-function obtenerResultados2 () {
 
-  //Respuestas correctas
-  var respuestasCorrectas2 = 0;
-
-  // Loop de preguntas 
-  for (var preguntas = 1; preguntas <= 5; preguntas++) {
-    var numeroPreguntas = document.getElementsByName("opciones" + preguntas);
-
-    //Loop para respuestas
-    for (var respuestas = 0; respuestas < numeroPreguntas.length; respuestas++) {
-      var numeroRespuestas = numeroPreguntas[respuestas];
-      if (numeroRespuestas.value == "correcto" && numeroRespuestas.checked) {
-        respuestasCorrectas2++;
-      }
-    }
-  }
-  document.getElementById("resultadosFinal2").innerHTML =
-    "Respuestas correctas " + respuestasCorrectas2;
-}
 
 
 //  Link de donde sacamos el código:
