@@ -13,28 +13,23 @@
 
 [Gabriela Gomez](https://github.com/GaabsG)
 <br />
-
 [María Isabel Durango](https://github.com/MariaIsaDurango)
 <br />
-
 [María-Fernanda Villalobos](https://github.com/MariferVL)
 
 <br/>
-<br />
-<br />
-<br />
 
   <p align="center">
        </summary>
     <br />
-    <br />
     <a href="https://github.com/MariferVL/Laboratoria6.1"><strong>Acceso a Documentos »</strong></a>
     <br />
-     <a href="https://marifervl.github.io/Laboratoria6.1/"><strong>Acceso a Despliegue</strong></a>
+     <a href="https://marifervl.github.io/Laboratoria6.1/"><strong>Acceso a Despliegue »</strong></a>
     <br />
  
   </p>
 </div>
+<br />
 
 <details>
   <summary>Indice</summary>
@@ -113,6 +108,7 @@ Parte del proceso creativo se enfocó en la experiencia para nuestros usuarias, 
         <li><a> Element.innerHTML() - MDN </a></li>
         <li><a> Node.textContent - MDN </a></li>
       </ul>
+       </ul>
     <br />
   <li> Javascript </li>
     <ul>
@@ -144,12 +140,15 @@ Parte del proceso creativo se enfocó en la experiencia para nuestros usuarias, 
         </ul>
       <li><a> - [x] Uso de identificadores descripptivos (Nomenclatura y semántica) </a></li>
       <br />  
+       </ul>
     <li> UX (User eXperience) </li>
       <ul>
         <li><a> - [x] Diseñar la aplicación pensando en y entendiendo al usuario </a></li>
         <li><a> - [x] Crear prototipos para obtener feedback e iterar </a></li>
       </ul>
   </ul>
+</details>
+
   <br />
   <br />
   <br />
@@ -164,7 +163,7 @@ Parte del proceso creativo se enfocó en la experiencia para nuestros usuarias, 
     <li>1 botón para responder y ver cuál es la alternativa correcta.</li>
     <li>No te dice si acertaste o no, sólo te dice cuál alternativa era la correcta.</li>
     <li>Solamente el "esqueleto" estático.</li>
-    <li>Dos preguntas con sus respectivas alternativas de respuesta en forma de /radio buttons/ (🔘)</li>
+    <li>Dos preguntas con sus respectivas alternativas de respuesta en forma de /radio buttons/. (🔘)</li>
     <li>Botón para <b>“Responder y ver resultados”</b>.</li>
     <li>Mostrar un mensaje de alerta (/alert/) en el navegador que contenga el valor (texto) del /radio button/ cliqueado.</li>
     <li>Que esta vez solamente se marque el /radio button/ seleccionado y que el mensaje /alert/ con los valores de los /radio button/ seleccionados se muestre cuando al hacer /click/ en el botón “Responder y ver resultados”.</li>
@@ -172,9 +171,9 @@ Parte del proceso creativo se enfocó en la experiencia para nuestros usuarias, 
   </details>
 
 <div align="center">
-  <img src="images/1radioXpregunta.png" width="600px" height="400px">
-  <img src="images/htmlHito1a.png" width="600px" height="400px">
-    <img src="images/jsHito1-2.png" width="600px" height="400px">
+  <img src="images/1radioXpregunta.png" width="300px" height="200px">
+  <img src="images/htmlHito1a.png" width="300px" height="200px">
+    <img src="images/jsHito1-2.png" width="300px" height="200px">
 
 </div>
 
@@ -187,7 +186,7 @@ Parte del proceso creativo se enfocó en la experiencia para nuestros usuarias, 
     <li>Agrega una pantalla simple de bienvenida.</li>
     <li>Un botón de "jugar" o "comenzar" para ir a las preguntas.</li>
     <li>Esta vez deberán haber al menos 3 preguntas con sus respectivas alternativas de respuesta.</li>
-    <li>Antes de las peguntas debe decir "Hola [el nombre que se escribió en la pantalla de bienvenida]"</li>
+    <li>Antes de las peguntas debe decir "Hola [el nombre que se escribió en la pantalla de bienvenida]".</li>
     <li>Botón para responder muestra alternativa correcta para cada pregunta y, además, muestra si cada una de las respuestas fue correcta o incorrecta.</li>
  <li>Botón para volver a jugar que vuelve a la pantalla inicial en la que se pide el nombre.</li>
 <li>Determinar si las respuestas seleccionadas son correctas o incorrectas, necesitas predefinir cuál alternativa es la correcta para cada pregunta y evaluar (comparar) si la respuesta de tu usuaria coincide o no.</li>
@@ -197,7 +196,7 @@ Parte del proceso creativo se enfocó en la experiencia para nuestros usuarias, 
     </details>
 
   <div align="center">
- <img src="images/clickRadioButton.gif" width="600px" height="400px">
+ <img src="images/clickRadioButton.gif" width="300px" height="200px">
 
 </div>
 
@@ -209,13 +208,13 @@ Parte del proceso creativo se enfocó en la experiencia para nuestros usuarias, 
 <details>
   <summary><b>Hito 3</b></summary>
   <ul>
-    <li> Permitir a usuaria elegir entre 2 tipos de preguntas después de escribir su nombre y antes de ir a responder.Agrega un puntaje a respuestas correctas e incorrectas y muestra un puntaje total al final.</li>
+    <li> Permitir a usuaria elegir entre 2 tipos de preguntas después de escribir su nombre y antes de ir a responder.</li>
     <li>Agrega puntaje a respuestas correctas e incorrectas y muestra un puntaje total al final.</li>
   </ul>
   </details>
   <div align="center">
-  <img src="/images/demomain.gif" width="600px" height="400px">
-  <img src="/images/demoCorrectas.gif" width="600px" height="400px">
+  <img src="/images/demomain.gif" width="300px" height="200px">
+  <img src="/images/demoCorrectas.gif" width="300px" height="200px">
 </div>
 <br />
 
@@ -223,16 +222,15 @@ Parte del proceso creativo se enfocó en la experiencia para nuestros usuarias, 
   <summary><b>Hacker Edition</b></summary>
   <ul>
     <li>Agregar una cuenta regresiva con un tiempo límite para responder cada pregunta.</li>
-    <li>Subir código a GitHub</li>
+    <li>Subir código a GitHub.</li>
     <li>Usar Boostrap.</li>
-    <li>Crear una página web responsiva</li>
+    <li>Crear una página web responsiva.</li>
   </ul>
 </details>
 
 <div align="center">
-  <img src="/images/demomain.gif" width="600px" height="400px">
-  <img src="/images/demoCorrectas.gif" width="600px" height="400px">
-  <img src="/images/hito3Boostrap.png" width="600px" height="400px">
+  <img src="/images/demomain.gif" width="300px" height="200px">
+  <img src="/images/hito3Boostrap.png" width="300px" height="200px">
 </div>
  <br/>
 
