@@ -41,6 +41,7 @@
       </ul>
     </li>
     <li><a href="#aprendizaje">Aprendizaje</a></li>
+    <li><a href="#video.demo">Video Demo</a></li>
     <li><a href="#referencias">Referencias</a></li>
   </ol>
 </details>
@@ -196,8 +197,9 @@ Parte del proceso creativo se enfocó en la experiencia para nuestros usuarias, 
     </details>
 
   <div align="center">
- <img src="images/clickRadioButton.gif" width="300px" height="200px">
- <img src="images/mensajedealerta.mp4" width="300px" height="200px">
+   <img src="/images/mensajeDeAlerta.gif" width="300px" height="200px">
+ <img src="/images/clickRadioButton.gif" width="300px" height="200px">
+
 
 </div>
 
@@ -214,8 +216,9 @@ Parte del proceso creativo se enfocó en la experiencia para nuestros usuarias, 
   </details>
   <div align="center">
   <img src="/images/demomain.gif" width="300px" height="200px">
-  https://user-images.githubusercontent.com/99364311/208120870-3fa65545-a8d6-4d3c-91ad-d49677858bde.mp4
   <img src="/images/demoCorrectas.gif" width="300px" height="200px">
+
+  
 </div>
 <br />
 
@@ -234,13 +237,21 @@ Parte del proceso creativo se enfocó en la experiencia para nuestros usuarias, 
 <br />
 
 <div align="center">
-  <img src="/images/demomain.gif" width="300px" height="200px">
   <img src="/images/hito3Boostrap.png" width="300px" height="200px">
-  <img src="images/mensajedealerta.mp4" width="300px" height="200px">
+  <img src="" width="300px" height="200px">
 </div>
 <br />
+
+
+
+<br/>
 <p align="left"><a href="#volver">Volver</a></p>
 <br/>
+
+
+## Video Demo
+
+https://user-images.githubusercontent.com/99364311/208135177-795d5c58-2de1-4a78-87f0-fa1f2673b495.mp4
 
 <br/>
 
