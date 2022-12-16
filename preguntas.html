@@ -94,19 +94,19 @@
 
     <div id="pregunta1">
       <h1>1. ¿Cuál es la película que más Oscars ha ganado en la historia?</h1>
-      <input type="radio" name="opcion1" value="incorrecto" id="opcionA1" onClick="mostrarValor(this)" />
+      <input type="radio" name="opcion1" value="incorrecto" id="opcionA1" />
       <label for="opcionA1">Titanic</label>
       <br />
-      <input type="radio" name="opcion1" value="incorrecto" id="opcionB1" onClick="mostrarValor(this)" />
+      <input type="radio" name="opcion1" value="incorrecto" id="opcionB1" />
       <label for="opcionB1">El señor de los anillos: el retorno del rey</label>
       <br />
-      <input type="radio" name="opcion1" value="incorrecto" id="opcionC1" onClick="mostrarValor(this)" />
+      <input type="radio" name="opcion1" value="incorrecto" id="opcionC1" />
       <label for="opcionC1">Ben Hur</label>
       <br />
-      <input type="radio" name="opcion1" value="correcto" id="opcionD1" onClick="mostrarValor(this)" />
+      <input type="radio" name="opcion1" value="correcto" id="opcionD1" />
       <label for="opcionD1">Todas las anteriores</label>
       <br />
-      <input type="radio" name="opcion1" value="incorrecto" id="opcionE1" onClick="mostrarValor(this)" />
+      <input type="radio" name="opcion1" value="incorrecto" id="opcionE1" />
       <label for="opcionE1">Titanic y El señor de los anillos: el retorno del rey</label>
       <br />
       <br />
@@ -262,9 +262,8 @@
 
 
     </div>
-    <button onclick="return obtenerResultados();" type="submit">Responder y ver resultados</button>
-    <h2 id="resultadosFinal">Resultados</h2>
-    <p id="resultadosFinal"></p>
+    <button  class="btn btn-dark btn-lg download-btn" onclick="obtenerResultados()" type="submit">Responder y ver resultados</button>
+    <h3 id="resultadoFinal">Resultados: </h3>
 
 
     <!--En modo de enlace para regresar podemos hacer lo siguiente:-->

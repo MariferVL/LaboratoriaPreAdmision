@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- fonts -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat;400&family=Ubuntu;1,700&display=swap"
@@ -78,19 +78,19 @@
 
     <div id="pregunta1">
       <h1>1. ¿Quién es considerada la reina de la música pop?</h1>
-      <input type="radio" name="opcion1" value="incorrecto" id="opcionA1" onClick="mostrarValor(this)" />
+      <input type="radio" name="opcion1" value="incorrecto" id="opcionA1" onClick="obtenerResultados" />
       <label for="opcionA1">Katy Perry</label>
       <br />
-      <input type="radio" name="opcion1" value="correcto" id="opcionB1" onClick="mostrarValor(this)" />
+      <input type="radio" name="opcion1" value="correcto" id="opcionB1" onClick="obtenerResultados" />
       <label for="opcionB1">Madonna</label>
       <br />
-      <input type="radio" name="opcion1" value="incorrecto" id="opcionC1" onClick="mostrarValor(this)" />
+      <input type="radio" name="opcion1" value="incorrecto" id="opcionC1" onClick="obtenerResultados" />
       <label for="opcionC1">Shania Twain</label>
       <br />
-      <input type="radio" name="opcion1" value="incorrecto" id="opcionD1" onClick="mostrarValor(this)" />
+      <input type="radio" name="opcion1" value="incorrecto" id="opcionD1" onClick="obtenerResultados" />
       <label for="opcionD1">Janet Jackson</label>
       <br />
-      <input type="radio" name="opcion1" value="incorrecto" id="opcionE1" onClick="mostrarValor(this)" />
+      <input type="radio" name="opcion1" value="incorrecto" id="opcionE1" onClick="obtenerResultados" />
       <label for="opcionE1">Britney Spears</label>
       <br />
       <br />
@@ -245,10 +245,8 @@
 
 
     </div>
-    <button onclick="return obtenerResultados();" type="submit" class="btn btn-dark btn-lg download-btn">Responder y ver
-      resultados</button>
-    <h2 id="resultadosFinal">Resultados</h2>
-    <p id="resultadosFinal"></p>
+    <button class="btn btn-dark btn-lg download-btn" onclick="obtenerResultados()" type="submit" >Responder y ver resultados</button>
+    <h3 id="resultadoFinal"></h3>
 
 
     <!--En modo de enlace para regresar podemos hacer lo siguiente:-->

@@ -7,27 +7,31 @@ function guardarNombre() {
   }
 }
 
-
 function obtenerResultados () {
 
   //Respuestas correctas
   var respuestasCorrectas = 0;
 
   // Loop de preguntas 
-  for (var pregunta = 1; pregunta <= 5; pregunta++) {
-    var numeroPregunta = document.getElementsByName("opcion" + pregunta);
+  for (var pregunta = 1; pregunta <= 8; pregunta++) {
+    var listaOpciones = document.getElementsByName("opcion" + pregunta);
 
-    //Loop para respuestas
-    for (var respuesta = 0; respuesta < numeroPregunta.length; respuesta++) {
-      var numeroRespuesta = numeroPregunta[respuesta];
-      if (numeroRespuesta.value == "correcto" && numeroRespuesta.checked) {
-        respuestasCorrectas++;
+          for (var j = 0; j < listaOpciones.length; j++) {
+              var opcion = listaOpciones[j];
+              if (opcion.checked) {
+              if (opcion.value == "correcto") {
+                respuestasCorrectas++;
+                  opcion.nextElementSibling.style.backgroundColor = "white";
+                  opcion.nextElementSibling.style.color = "#f57084";
+              } else {
+                  opcion.nextElementSibling.style.color = "#d21430";
+              }
+              } 
+          }
       }
+      document.getElementById("resultadoFinal").innerHTML =
+        "Respuestas correctas: " + respuestasCorrectas;
     }
-  }
-  document.getElementById("resultadosFinal").innerHTML =
-    "Respuestas correctas " + respuestasCorrectas;
-}
 
 
 // function respuesta() {

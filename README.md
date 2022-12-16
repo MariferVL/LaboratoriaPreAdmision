@@ -1,26 +1,25 @@
 <div id="volver"></div>
 
-
 <br/>
 <div align="center">
 
-
-<h1 align="center"><b>Proyecto Pre-Admisión Laboratoria</b></h1>
+<h1 align="center"><b>Proyecto Pre-Admisión <br/>
+ Laboratoria</b></h1>
 <h2 align="center">Triada 6.1</h2>
-<img src="bp/static/images/favicon-96x96.png" alt="Logo" width="110px" height="110px">
+<img src="images/Laboratoria3.jpg" alt="Logo" width="110px" height="110px">
 
-
-
-<b>Autora</b>
-<br/>
-María-Fernanda Villalobos 
+<b>Autoras</b>
 <br/>
 
+[Gabriela Gomez](https://github.com/GaabsG)
+[María Isabel Durango](https://github.com/MariaIsaDurango)
+[María-Fernanda Villalobos](https://github.com/MariferVL)
+
 <br/>
-GitHub: https://github.com/Marifer1111
 <br />
 <br />
 <br />
+
   <p align="center">
     CONTEXTO
     <br/>
@@ -30,9 +29,9 @@ GitHub: https://github.com/Marifer1111
     </summary>
     <br />
     <br />
-    <a href="https://github.com/Marifer1111/Ejercicios_Bootcamp/tree/main/M6/Enviados/M6-Completo"><strong>Acceso a Documentos »</strong></a>
+    <a href="https://github.com/MariferVL/Laboratoria6.1"><strong>Acceso a Documentos »</strong></a>
     <br />
-     <a href="https://presentes-cl.herokuapp.com/"><strong>Acceso a Despliegue</strong></a>
+     <a href="https://marifervl.github.io/Laboratoria6.1/"><strong>Acceso a Despliegue</strong></a>
     <br />
  
   </p>
@@ -47,64 +46,256 @@ GitHub: https://github.com/Marifer1111
         <li><a href="#lenguaje-de-programación">Lenguaje de programación </a></li>
       </ul>
     </li>
-    <li><a href="#uso">Uso</a></li>
+    <li><a href="#aprendizaje">Aprendizaje</a></li>
     <li><a href="#referencias">Referencias</a></li>
   </ol>
 </details>
  <br />
 
-
 ## Acerca del Proyecto
 
 <summary> 
-    Este proyecto tiene como fin crear una aplicación web simple utilizando Python y el framework Django. Además, reconocer e implementar funcionalidades del sitio
-administrativo de Django.
-    Para llevar esto a cabo, creé un proyecto orientado a ofrecer servicios y crear comunidad, permitiendo el acceso a actividades conscientes y necesarias para una vida balanceada.
-    </summary>
+Como parte del proceso de Pre-Admisión, en este proyecto construimos una aplicación Web sobre Trivias. Nuestra app cuenta con temática de cine y música.
+Por medio de este proyecto tuvimos una primera experiencia desarrollando aplicaciones Web que interactúen con las usuarias a través del navegador, utilizando HTML, CSS, Boostrap y JavaScript.
+Parte del proceso creativo se enfocó en la experiencia para nuestros usuarias, la responsividad para cada pantallas, el flujo, los mensajes, colores, etc.
 
+</summary>
 
 ### Lenguaje de programación
 
-* [Python](https://www.python.org/)
-
+- [Javascript](https://www.javascript.com/)
 
 ### Framework
 
-* [Django](https://www.djangoproject.com/)
-* [Bootstrap](https://getbootstrap.com/)
-
+- [Bootstrap](https://getbootstrap.com/)
 
 <p align="left"><a href="#volver">Volver</a></p>
  <br />
 
+## Aprendizaje
 
-## Uso
-La base de datos d este proyecto está configurada para MySQL y además cuenta con un archivo (dump.json) para cargar la base de datos completa en un nuevo proyecto o un nuevo motor de base de datos.
-El proyecto cuenta con 3 secciones principales que son de libre accceso al público: Registro en nuestra comunidad web, Compra de Servicios y Post-its.
 <details>
-  <summary><b>Registro</b></summary>
+  <summary>Durante la estructuración y creación de este proyecto logramos<b> adquirir conocimientos</b>  en las siguientes temáticas:</summary>
   <ul>
-    <li><a><b>signup.html</b> contiene el código necesario para registrar a nuestros usuarios vía website.</a></li>
-    <li><a><b>login.html</b> permite ingresar a los usuarios ya registrados en nuestra BD.</a></li>
-    <li><a>Los usuarios registrados se agrupan en "Público" o "Team" en el  <b>/admin</b> por un resguardo de seguridad.
-      El equipo administrativo es el único con acceso para ralizar este tipo de modifica
-      ciones.</a></li>
-    <li><a>El grupo "Team" tiene un mínimo de restricciones para así facilitar la actividad del sitio web.</a></li>
-    <li><a>El grupo "Público" tiene un acceso limitado a la sección Post-It, creación de usuario y visualización de contenido, para proteger el material desplegado en el sitio.</a></li>
-    <li><a>Además, se están implementando otras subsecciones para facilitar el uso de esta plataforma..</a></li>
+  <li> Html </li> l
+    <ul>
+      <li><a> - [x] Uso de HTML semántico </a></li>
+        <ul>
+        <li><a> HTML semántico </a></li>
+        <li><a> Semantics - MDN Web Docs Glossary </a></li>
+        </ul>
+    <li><a> - [x] Uso de selectores de CSS </a></li>
+      <ul>
+        <li> <a> Intro a CSS </a></li>
+        <li> <a> CSS selectors - MDN 
+      </ul>
+    </ul>
+  </ br>
+  <li> Webb APIs </li>
+    <ul>
+      <li><a> - [x] Uso de Selectores del DOM </a></li>
+        <ul>
+          <li> <a> Manipulación del DOM </a></li>
+          <li> <a> Introducción al DOM </a></li>
+          <li> <a> Localizando elementos DOM usando selectores - MDN </a></li>
+        </ul>
+    <li><a> - [x] Manejo de eventos del DOM (listeners, propagación, delegación)
+      <ul>
+        <li><a> Introducción a eventos - MDN </a></li>
+        <li><a> EventTarget.addEventListener() - MDN </a></li>
+        <li><a> EventTarget.removeEventListener() - MDN </a></li>
+        <li><a> El objeto Event </a></li>
+      </ul>
+    <li><a> - [x] Maipulación dinámica del DOM </a></li>
+      <ul>
+        <li><a> Introducción    
+
+    <li><a> HTML semántico </a></li>
+      <ul>Html
+          <li><a> - [x] Agregar una cuenta regresiva con un tiempo límite para responder cada pregunta.</a></li>
+                <ul>Html
+                    <li><a> - [x] Agregar una cuenta regresiva con un tiempo límite para responder cada pregunta.</a></li>
+                  </ul>
+        </ul>
+    <li><a> - [x] Subir código a GitHub</a></li>
+    <li><a> - [x] Usar Boostrap.</a></li>
+    <li><a>Crear una página web responsiva</a></li>
+
   </ul>
-</details>
-<div align="center">
-  <img src="bp/static/images/signUpPage.png " width="600px" height="400px">
+</details>HTML
 
-  <img src="bp/static/images/signUpCode.png" width="600px" height="400px">
-</div>
-<br />
+       <#html>
+
+- _Uso de HTML semántico_
+  o
+
+       ​HTML semántico <https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html>​
+
+  o
+
+       ​Semantics - MDN Web Docs Glossary <https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML>​
+
+- _Uso de selectores de CSS_
+  o
+
+       ​Intro a CSS <https://curriculum.laboratoria.la/es/topics/css/01-css/01-intro-css>​
+
+  o
+
+       ​CSS Selectors - MDN <https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors>​
+
+  Web APIs
+
+      <#web-apis>
+
+- _Uso de selectores del DOM_
+  o
+
+       ​Manipulación del DOM <https://curriculum.laboratoria.la/es/topics/browser/02-dom/03-1-dom-methods-selection>​
+
+  o
+
+       ​Introducción al DOM - MDN <https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction>​
+
+  o
+
+       ​Localizando elementos DOM usando selectores - MDN <https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors>​
+
+- _Manejo de eventos del DOM (listeners, propagación, delegación)_
+  o
+
+       ​Introducción a eventos - MDN <https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Events>​
+
+  o
+
+       ​EventTarget.addEventListener() - MDN <https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener>​
+
+  o
+
+       ​EventTarget.removeEventListener() - MDN <https://developer.mozilla.org/es/docs/Web/API/EventTarget/removeEventListener>​
+
+  o
+
+       ​El objeto Event <https://developer.mozilla.org/es/docs/Web/API/Event>​
+
+- _Manipulación dinámica del DOM_
+  o
+
+       ​Introducción al DOM <https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction>​
+
+  o
+
+       ​Node.appendChild() - MDN <https://developer.mozilla.org/es/docs/Web/API/Node/appendChild>​
+
+  o
+
+       ​Document.createElement() - MDN <https://developer.mozilla.org/es/docs/Web/API/Document/createElement>​
+
+  o
+
+       ​Document.createTextNode() <https://developer.mozilla.org/es/docs/Web/API/Document/createTextNode>​
+
+  o
+
+       ​Element.innerHTML - MDN <https://developer.mozilla.org/es/docs/Web/API/Element/innerHTML>​
+
+  o
+
+       ​Node.textContent - MDN <https://developer.mozilla.org/es/docs/Web/API/Node/textContent>​
+
+  JavaScript
+
+      <#javascript>
+
+- _Tipos de datos primitivos_
+  o
+
+       ​Valores primitivos - MDN <https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#valores_primitivos>​
+
+- _Strings (cadenas de caracteres)_
+  o
+
+       ​Strings <https://curriculum.laboratoria.la/es/topics/javascript/06-strings>​
+
+  o
+
+       ​String — Cadena de caracteres - MDN <https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String>​
+
+- _Variables (declaración, asignación, ámbito)_
+  o
+
+       ​Valores, tipos de datos y operadores <https://curriculum.laboratoria.la/es/topics/javascript/01-basics/01-values-variables-and-types>​
+
+  o
+
+       ​Variables <https://curriculum.laboratoria.la/es/topics/javascript/01-basics/02-variables>​
+
+- _Uso de condicionales (if-else, switch, operador ternario, lógica booleana)_
+  o
+
+       ​Estructuras condicionales y repetitivas <https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/01-conditionals-and-loops>​
+
+  o
+
+       ​Tomando decisiones en tu código — condicionales - MDN <https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals>​
+
+- _Funciones (params, args, return)_
+  o
+
+       ​Funciones (control de flujo) <https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/03-functions>​
+
+  o
+
+       ​Funciones clásicas <https://curriculum.laboratoria.la/es/topics/javascript/03-functions/01-classic>​
+
+  o
+
+       ​Arrow Functions <https://curriculum.laboratoria.la/es/topics/javascript/03-functions/02-arrow>​
+
+  o
+
+       ​Funciones — bloques de código reutilizables - MDN <https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Functions>​
+
+- _Uso de identificadores descriptivos (Nomenclatura y Semántica)_
+
+  UX (User eXperience)
+
+      <#ux-user-experience>
+
+- _Diseñar la aplicación pensando en y entendiendo al usuario_
+- _Crear prototipos para obtener feedback e iterar_
+
+</details>
+
+## Proyecto
+
 <details>
-  <summary><b>Compra de Servicios</b></summary>
+  <summary><b>Hito 1</b></summary>
   <ul>
-    <li><a>Esta sección contiene los servicos ofrecidos con su respectivo detalle y precio.</a></li>
-    <li><a>El display de esta sección lo realiza <b>home.html</b>  </a></li>
+    <li><b></b>1 sola pantalla o vista.</li>
+    <li><b></b>2 preguntas con, al menos, 3 alternativas de respuesta cada una. </li>
+    <li>1 botón para responder y ver cuál es la alternativa correcta.</li>
+    <li>No te dice si acertaste o no, sólo te dice cuál alternativa era la correcta.</li>
+    <li>Solamente el "esqueleto" estático.</li>
+    <li>Dos preguntas con sus respectivas alternativas de respuesta en forma de /radio buttons/ (🔘)</li>
+    <li>Botón para <b>“Responder y ver resultados”</b>.</li>
+    <li>Mostrar un mensaje de alerta (/alert/) en el navegador que contenga el valor (texto) del /radio button/ cliqueado.</li>
+    <li>Que esta vez solamente se marque el /radio button/ seleccionado y que el mensaje /alert/ con los valores de los /radio button/ seleccionados se muestre cuando al hacer /click/ en el botón “Responder y ver resultados”.</li>
+</ul>
+<div align="center">
+  <img src="images/htmlHito1a.png" width="600px" height="400px">
+
+  <img src="images/demoClick1Radio.mp4" width="600px" height="400px">
+</div>
+</details>
+
+<br />
+
+<details>
+  <summary><b>Hito 2</b></summary>
+  <ul></ul>
+    <li>Una caja de texto (input text) en la que escribe su nombre quien juega.</li>
+    <li>El display de esta sección lo realiza.</li>
   </ul>
   </details>
   <div align="center">
@@ -113,36 +304,47 @@ El proyecto cuenta con 3 secciones principales que son de libre accceso al públ
   <img src="bp/static/images/servicesEx.png" width="600px" height="400px">
 </div>
 <br />
-<details>
-  <summary><b>Post-its</b></summary>
-  <ul>
-    <li><a>Esta sección permite desplayar los mensajes creados por nuestros usuarios.</a></li>
-    <li><a>Los usuarios registrados podrán crear, modificar y ver los post-it</a></li>
-    <li><a>Los visitantes no registrados del sitio web solo podrán ver los post-it</a></li>
-  </ul>
-</details>
-
-<div align="center">
-  <img src="bp/static/images/post-it-Ex.png" width="600px" height="400px">
- 
-  <img src="bp/static/images/createpost.png" width="600px" height="400px">
-</div>
- <br/>
-
 <br/>
 <p align="left"><a href="#volver">Volver</a></p>
  <br />
 
+<details>
+  <summary><b>Hito 3</b></summary>
+  <ul>
+    <li><a>Esta sección contiene los servicos ofrecidos con su respectivo detalle y precio.</a></li>
+    <li><a>El display de esta sección lo realiza <b>home.html</b>  </a></li>
+  </ul>
+  </details>
+  <div align="center">
+  <img src="images/demoMain.mp4" width="600px" height="400px">
 
+  <img src="images/demoCorrectas.mp4" width="600px" height="400px">
+</div>
+<br />
+
+<details>
+  <summary><b>Hacker Edition</b></summary>
+  <ul>
+    <li>Agregar una cuenta regresiva con un tiempo límite para responder cada pregunta.</li>
+    <li>Subir código a GitHub</li>
+    <li>Usar Boostrap.</li>
+    <li>Crear una página web responsiva</li>
+  </ul>
+</details>
+
+<div align="center">
+  <img src="/images/" width="600px" height="400px">
+  <img src="/images/hito3Boostrap.png" width="600px" height="400px">
+</div>
+ <br/>
+
+<br/>
 
 ## Referencias
 
-* [DjangoGirls](https://tutorial.djangogirls.org/es/)
-* [Coursera](https://www.coursera.org/specializations/django#courses)
-* [Real Python](https://realpython.com/)
-
-
-
+- [Sololearn](https://www.sololearn.com/learning/1024)
+- [StackOverflow](https://stackoverflow.com/)
+- [W3Schools](https://www.w3schools.com/)
+- [DjangoGirls](https://tutorial.djangogirls.org/es/)
 
 <p align="left"><a href="#volver">Volver</a></p>
-
