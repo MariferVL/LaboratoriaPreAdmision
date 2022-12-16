@@ -41,7 +41,7 @@
       </ul>
     </li>
     <li><a href="#aprendizaje">Aprendizaje</a></li>
-    <li><a href="#video.demo">Video Demo</a></li>
+    <li><a href="#video-demo">Video Demo</a></li>
     <li><a href="#referencias">Referencias</a></li>
   </ol>
 </details>
