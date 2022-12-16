@@ -237,7 +237,7 @@ Parte del proceso creativo se enfocó en la experiencia para nuestros usuarias, 
 
 <div align="center">
   <img src="/images/hito3Boostrap.png" width="300px" height="200px">
-  <img src="" width="300px" height="200px">
+  <img src="/images/demoGithub2x.gif" width="300px" height="200px">
 </div>
 <br />
 
