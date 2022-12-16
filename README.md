@@ -197,12 +197,12 @@ Parte del proceso creativo se enfocó en la experiencia para nuestros usuarias, 
 
   <div align="center">
  <img src="images/clickRadioButton.gif" width="300px" height="200px">
+ <img src="images/mensajedealerta.mp4" width="300px" height="200px">
 
 </div>
 
 <br />
 <br/>
-<p align="left"><a href="#volver">Volver</a></p>
  <br />
 
 <details>
@@ -227,12 +227,16 @@ Parte del proceso creativo se enfocó en la experiencia para nuestros usuarias, 
     <li>Crear una página web responsiva.</li>
   </ul>
 </details>
+<br />
 
 <div align="center">
   <img src="/images/demomain.gif" width="300px" height="200px">
   <img src="/images/hito3Boostrap.png" width="300px" height="200px">
+  <img src="images/mensajedealerta.mp4" width="300px" height="200px">
 </div>
- <br/>
+<br />
+<p align="left"><a href="#volver">Volver</a></p>
+<br/>
 
 <br/>
 
