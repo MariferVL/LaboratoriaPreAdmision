@@ -24,7 +24,7 @@
     <br />
     <a href="https://github.com/MariferVL/Laboratoria6.1"><strong>Acceso a Documentos »</strong></a>
     <br />
-     <a href="https://marifervl.github.io/Laboratoria6.1/"><strong>Acceso a Despliegue »</strong></a>
+     <a href="https://marifervl.github.io/LaboratoriaPreAdmision/"><strong>Acceso a Despliegue »</strong></a>
     <br />
  
   </p>
